@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
+ /**
+     * This class is used for Misho's example.
+     * 
+     */
 public class JavaDocClass
 {
     private String str1;
