@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>testMVNPRoject</groupId>
 	<artifactId>tesstt</artifactId>
-	<url>https://github.com/mihmih/testRepo</url>
+	<url>https://github.com/${user}/${repo}</url>
 
 	<parent>
 		<groupId>uk.co.newsint.cip</groupId>
@@ -13,9 +13,9 @@
 
 	<version>0.0.1-SNAPSHOT</version>
 	<scm>
-		<url>https://github.com/mihmih/testRepo</url>
-		<connection>scm:git:git://github.com/mihmih/testRepo.git</connection>
-		<developerConnection>scm:git:git@github.com:mihmih/testRepo.git</developerConnection>
+		<url>https://github.com/${user}/${repo}</url>
+		<connection>scm:git:git://github.com/${user}/${repo}.git</connection>
+		<developerConnection>scm:git:git@github.com:${user}/${repo}.git</developerConnection>
 	</scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
